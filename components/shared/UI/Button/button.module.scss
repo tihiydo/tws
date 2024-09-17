@@ -1,0 +1,57 @@
+.btn {
+  background: #323334;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 8px 20px;
+  color: #fff;
+  border: 1px solid #323334;
+  transition-property: color, background;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #323334;
+  }
+}
+
+.btn_buy {
+  position: relative;
+  background: #0bab0f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border: none;
+  padding: 8px 45px 8px 20px;
+  .btn_cart {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &:hover {
+    background: #09810a;
+    color: #fff;
+  }
+}
+.btn_buy_active {
+  background: transparent;
+  color: #323334;
+  border: 1px #323334 solid;
+  &:hover {
+    background: transparent;
+    color: #323334;
+  }
+}
+
+.btn_order {
+  position: relative;
+  background: #0bab0f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border: none;
+  padding: 8px 20px;
+  &:hover {
+    background: #09810a;
+    color: #fff;
+  }
+}

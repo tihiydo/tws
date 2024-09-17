@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "00f03371-cecc-4543-a0a2-f98a19b843b9",
+    "category": [
+      {
+        "productId": "00f03371-cecc-4543-a0a2-f98a19b843b9",
+        "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "00f03371-cecc-4543-a0a2-f98a19b843b9",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "04d81236-f2c9-4489-876c-de6e8e91ee9c",
+    "category": [
+      {
+        "productId": "04d81236-f2c9-4489-876c-de6e8e91ee9c",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "04d81236-f2c9-4489-876c-de6e8e91ee9c",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "06029279-bbee-43f8-acaa-bfe08144f0a8",
+    "category": [
+      {
+        "productId": "06029279-bbee-43f8-acaa-bfe08144f0a8",
+        "categoryId": "15ef2610-0105-4d22-a2c1-b705de5f6458"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "06029279-bbee-43f8-acaa-bfe08144f0a8",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "0c91eb91-eac6-44c4-adb3-5f8671c84dde",
+    "category": [
+      {
+        "productId": "0c91eb91-eac6-44c4-adb3-5f8671c84dde",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "0c91eb91-eac6-44c4-adb3-5f8671c84dde",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "0ca14beb-cc04-4d96-8a81-bfbedc61f351",
+    "category": [
+      {
+        "productId": "0ca14beb-cc04-4d96-8a81-bfbedc61f351",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "0ca14beb-cc04-4d96-8a81-bfbedc61f351",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "0f3b281f-67aa-4a6d-9002-97ddd27c55b3",
+    "category": [
+      {
+        "productId": "0f3b281f-67aa-4a6d-9002-97ddd27c55b3",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "0f3b281f-67aa-4a6d-9002-97ddd27c55b3",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "1be18789-2e05-40eb-9040-0c7183d838b5",
+    "category": [
+      {
+        "productId": "1be18789-2e05-40eb-9040-0c7183d838b5",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "1be18789-2e05-40eb-9040-0c7183d838b5",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "232f62d1-f75f-44a8-9334-6fbeafac403d",
+    "category": [
+      {
+        "productId": "232f62d1-f75f-44a8-9334-6fbeafac403d",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "232f62d1-f75f-44a8-9334-6fbeafac403d",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "2455deb6-8aa4-4633-bf91-528f4ea75b98",
+    "category": [
+      {
+        "productId": "2455deb6-8aa4-4633-bf91-528f4ea75b98",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "2455deb6-8aa4-4633-bf91-528f4ea75b98",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "2604d966-6bb9-494e-9ee5-b9a12abcb74c",
+    "category": [
+      {
+        "productId": "2604d966-6bb9-494e-9ee5-b9a12abcb74c",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "2604d966-6bb9-494e-9ee5-b9a12abcb74c",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "282607f6-02ce-4c09-9f50-cbea3fd56251",
+    "category": [
+      {
+        "productId": "282607f6-02ce-4c09-9f50-cbea3fd56251",
+        "categoryId": "24bcc493-a5b3-428c-860a-dda48aec4830"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "282607f6-02ce-4c09-9f50-cbea3fd56251",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "29f20c13-08b8-4f43-8e61-8c41dc7fcbeb",
+    "category": [
+      {
+        "productId": "29f20c13-08b8-4f43-8e61-8c41dc7fcbeb",
+        "categoryId": "40490143-6bff-4a13-bade-cfd679ce5f9c"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "29f20c13-08b8-4f43-8e61-8c41dc7fcbeb",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "2d473a83-3bd0-4da0-9602-b8ffc67cbc53",
+    "category": [
+      {
+        "productId": "2d473a83-3bd0-4da0-9602-b8ffc67cbc53",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "2d473a83-3bd0-4da0-9602-b8ffc67cbc53",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "2e7cd043-c046-4bf8-9cbc-85ff8dfbedd8",
+    "category": [
+      {
+        "productId": "2e7cd043-c046-4bf8-9cbc-85ff8dfbedd8",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "2e7cd043-c046-4bf8-9cbc-85ff8dfbedd8",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "3551be08-59ae-4bd2-9d14-7daa67ee97b0",
+    "category": [
+      {
+        "productId": "3551be08-59ae-4bd2-9d14-7daa67ee97b0",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "3551be08-59ae-4bd2-9d14-7daa67ee97b0",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "3bda91de-3e91-4eb5-bfdf-7786ae0af619",
+    "category": [
+      {
+        "productId": "3bda91de-3e91-4eb5-bfdf-7786ae0af619",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "3bda91de-3e91-4eb5-bfdf-7786ae0af619",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "4143a461-be1e-4bee-8503-901c2b0c678c",
+    "category": [
+      {
+        "productId": "4143a461-be1e-4bee-8503-901c2b0c678c",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "4143a461-be1e-4bee-8503-901c2b0c678c",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "4201db8a-f3ff-47bc-94e4-3ad0c8b9ffb9",
+    "category": [
+      {
+        "productId": "4201db8a-f3ff-47bc-94e4-3ad0c8b9ffb9",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "4201db8a-f3ff-47bc-94e4-3ad0c8b9ffb9",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "42e455db-1433-495b-a6a5-8b0a7cd833ab",
+    "category": [
+      {
+        "productId": "42e455db-1433-495b-a6a5-8b0a7cd833ab",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "42e455db-1433-495b-a6a5-8b0a7cd833ab",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "47f54db1-9aa2-4607-b315-8c608bc7a3c0",
+    "category": [
+      {
+        "productId": "47f54db1-9aa2-4607-b315-8c608bc7a3c0",
+        "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "47f54db1-9aa2-4607-b315-8c608bc7a3c0",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "4c5c7384-d53a-4e30-9bf7-d65a69e9085e",
+    "category": [
+      {
+        "productId": "4c5c7384-d53a-4e30-9bf7-d65a69e9085e",
+        "categoryId": "40490143-6bff-4a13-bade-cfd679ce5f9c"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "4c5c7384-d53a-4e30-9bf7-d65a69e9085e",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "4e6e5e61-3336-47f5-8b05-1be0119c61a7",
+    "category": [
+      {
+        "productId": "4e6e5e61-3336-47f5-8b05-1be0119c61a7",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "4e6e5e61-3336-47f5-8b05-1be0119c61a7",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "5708c98c-5cf7-474f-a217-f9455de3209b",
+    "category": [
+      {
+        "productId": "5708c98c-5cf7-474f-a217-f9455de3209b",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "5708c98c-5cf7-474f-a217-f9455de3209b",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "57db8cca-5db3-4b38-b22a-31942b27d86d",
+    "category": [
+      {
+        "productId": "57db8cca-5db3-4b38-b22a-31942b27d86d",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "57db8cca-5db3-4b38-b22a-31942b27d86d",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "5a0c0d67-1f21-4838-a80f-c08ef57f1eed",
+    "category": [
+      {
+        "productId": "5a0c0d67-1f21-4838-a80f-c08ef57f1eed",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "5a0c0d67-1f21-4838-a80f-c08ef57f1eed",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "5dd6031a-b3aa-4d53-830c-bbbd10fd80b5",
+    "category": [
+      {
+        "productId": "5dd6031a-b3aa-4d53-830c-bbbd10fd80b5",
+        "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "5dd6031a-b3aa-4d53-830c-bbbd10fd80b5",
+        "subcategoryId": "43fb901e-adcd-43ac-80b7-bebf99b172ef"
+      }
+    ]
+  },
+  {
+    "id": "5ecc2e47-a405-489a-ba4e-5db7ede7fe0a",
+    "category": [
+      {
+        "productId": "5ecc2e47-a405-489a-ba4e-5db7ede7fe0a",
+        "categoryId": "40490143-6bff-4a13-bade-cfd679ce5f9c"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "5ecc2e47-a405-489a-ba4e-5db7ede7fe0a",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "5f80bf36-e1aa-40bc-935e-28e535874e7c",
+    "category": [
+      {
+        "productId": "5f80bf36-e1aa-40bc-935e-28e535874e7c",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "5f80bf36-e1aa-40bc-935e-28e535874e7c",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "638900bb-4769-4c8a-93f1-6fdcf5d7bea5",
+    "category": [
+      {
+        "productId": "638900bb-4769-4c8a-93f1-6fdcf5d7bea5",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "638900bb-4769-4c8a-93f1-6fdcf5d7bea5",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "647846d9-8cdf-486b-aac3-63d29d8ed200",
+    "category": [
+      {
+        "productId": "647846d9-8cdf-486b-aac3-63d29d8ed200",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "647846d9-8cdf-486b-aac3-63d29d8ed200",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "69ae65fd-5075-42ae-ad94-ac2256014c03",
+    "category": [
+      {
+        "productId": "69ae65fd-5075-42ae-ad94-ac2256014c03",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "69ae65fd-5075-42ae-ad94-ac2256014c03",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "6c8c4cc7-76c8-40fc-9e1e-53d41eff247a",
+    "category": [
+      {
+        "productId": "6c8c4cc7-76c8-40fc-9e1e-53d41eff247a",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "6c8c4cc7-76c8-40fc-9e1e-53d41eff247a",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "6f6f35df-f7c2-404e-ad0e-e981f45ef31a",
+    "category": [
+      {
+        "productId": "6f6f35df-f7c2-404e-ad0e-e981f45ef31a",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "6f6f35df-f7c2-404e-ad0e-e981f45ef31a",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "744c32f0-bc99-4e45-944a-ea51719a4333",
+    "category": [
+      {
+        "productId": "744c32f0-bc99-4e45-944a-ea51719a4333",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "744c32f0-bc99-4e45-944a-ea51719a4333",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "74928e27-9d01-4aeb-83cd-eab60ce68377",
+    "category": [
+      {
+        "productId": "74928e27-9d01-4aeb-83cd-eab60ce68377",
+        "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "74928e27-9d01-4aeb-83cd-eab60ce68377",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "75439d24-f5e6-45ae-95be-6f78e9c600ec",
+    "category": [
+      {
+        "productId": "75439d24-f5e6-45ae-95be-6f78e9c600ec",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "75439d24-f5e6-45ae-95be-6f78e9c600ec",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "75763b1c-64ea-47e2-a46a-07e8960a0266",
+    "category": [
+      {
+        "productId": "75763b1c-64ea-47e2-a46a-07e8960a0266",
+        "categoryId": "40490143-6bff-4a13-bade-cfd679ce5f9c"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "75763b1c-64ea-47e2-a46a-07e8960a0266",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "75c0853e-8166-4f45-8048-6904275ccebe",
+    "category": [
+      {
+        "productId": "75c0853e-8166-4f45-8048-6904275ccebe",
+        "categoryId": "15ef2610-0105-4d22-a2c1-b705de5f6458"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "75c0853e-8166-4f45-8048-6904275ccebe",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "76bd8cb1-9e71-4831-93ad-73540a5578f8",
+    "category": [
+      {
+        "productId": "76bd8cb1-9e71-4831-93ad-73540a5578f8",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "76bd8cb1-9e71-4831-93ad-73540a5578f8",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "7874c4f4-1c92-498d-98de-2ddd06efe8b3",
+    "category": [
+      {
+        "productId": "7874c4f4-1c92-498d-98de-2ddd06efe8b3",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "7874c4f4-1c92-498d-98de-2ddd06efe8b3",
+        "subcategoryId": "a2e235cc-128f-43ae-a6dc-4b792334b90b"
+      }
+    ]
+  },
+  {
+    "id": "79dc792d-c720-4241-931e-5c48fdd63cf0",
+    "category": [
+      {
+        "productId": "79dc792d-c720-4241-931e-5c48fdd63cf0",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "79dc792d-c720-4241-931e-5c48fdd63cf0",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "80b8b6e3-f721-4bc7-b2a8-49dc4e9edfef",
+    "category": [
+      {
+        "productId": "80b8b6e3-f721-4bc7-b2a8-49dc4e9edfef",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "80b8b6e3-f721-4bc7-b2a8-49dc4e9edfef",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "851ca133-f8ab-4798-addc-b3e7740af341",
+    "category": [
+      {
+        "productId": "851ca133-f8ab-4798-addc-b3e7740af341",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "851ca133-f8ab-4798-addc-b3e7740af341",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "858306fa-e061-4792-9ac7-2c02df47a30b",
+    "category": [
+      {
+        "productId": "858306fa-e061-4792-9ac7-2c02df47a30b",
+        "categoryId": "15ef2610-0105-4d22-a2c1-b705de5f6458"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "858306fa-e061-4792-9ac7-2c02df47a30b",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "85d1dbdc-6ee7-4a5a-99e8-251a4d4c6d53",
+    "category": [
+      {
+        "productId": "85d1dbdc-6ee7-4a5a-99e8-251a4d4c6d53",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "85d1dbdc-6ee7-4a5a-99e8-251a4d4c6d53",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "88ca485f-0c15-4a79-8bfa-f04df1ef820e",
+    "category": [
+      {
+        "productId": "88ca485f-0c15-4a79-8bfa-f04df1ef820e",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "88ca485f-0c15-4a79-8bfa-f04df1ef820e",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "8d5332ba-60f8-47a0-b6a8-8b9da170021a",
+    "category": [
+      {
+        "productId": "8d5332ba-60f8-47a0-b6a8-8b9da170021a",
+        "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "8d5332ba-60f8-47a0-b6a8-8b9da170021a",
+        "subcategoryId": "43fb901e-adcd-43ac-80b7-bebf99b172ef"
+      }
+    ]
+  },
+  {
+    "id": "92a23c03-d74e-4187-a285-148d5dd4c199",
+    "category": [
+      {
+        "productId": "92a23c03-d74e-4187-a285-148d5dd4c199",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "92a23c03-d74e-4187-a285-148d5dd4c199",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "9339262f-83eb-47d0-8e49-1ba7f04f2771",
+    "category": [
+      {
+        "productId": "9339262f-83eb-47d0-8e49-1ba7f04f2771",
+        "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "9339262f-83eb-47d0-8e49-1ba7f04f2771",
+        "subcategoryId": "43fb901e-adcd-43ac-80b7-bebf99b172ef"
+      }
+    ]
+  },
+  {
+    "id": "9a8dd746-a2d3-4c1a-a6cd-eaabe5e4e0c4",
+    "category": [
+      {
+        "productId": "9a8dd746-a2d3-4c1a-a6cd-eaabe5e4e0c4",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "9a8dd746-a2d3-4c1a-a6cd-eaabe5e4e0c4",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "9eb7f219-5880-4960-8367-01e6fa38133c",
+    "category": [
+      {
+        "productId": "9eb7f219-5880-4960-8367-01e6fa38133c",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "9eb7f219-5880-4960-8367-01e6fa38133c",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "9f9950e9-53e0-4de5-8110-f0cd456d905b",
+    "category": [
+      {
+        "productId": "9f9950e9-53e0-4de5-8110-f0cd456d905b",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "9f9950e9-53e0-4de5-8110-f0cd456d905b",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "a2f67e76-9b9a-4654-ab32-442432850205",
+    "category": [
+      {
+        "productId": "a2f67e76-9b9a-4654-ab32-442432850205",
+        "categoryId": "40490143-6bff-4a13-bade-cfd679ce5f9c"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "a2f67e76-9b9a-4654-ab32-442432850205",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "a3f1fd38-79cb-41ff-8207-a458a174367e",
+    "category": [
+      {
+        "productId": "a3f1fd38-79cb-41ff-8207-a458a174367e",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "a3f1fd38-79cb-41ff-8207-a458a174367e",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "a536a235-d766-481c-81c9-0993240d037c",
+    "category": [
+      {
+        "productId": "a536a235-d766-481c-81c9-0993240d037c",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "a536a235-d766-481c-81c9-0993240d037c",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "a6746f63-9e8d-492d-a558-0444c455dd91",
+    "category": [
+      {
+        "productId": "a6746f63-9e8d-492d-a558-0444c455dd91",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "a6746f63-9e8d-492d-a558-0444c455dd91",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "a7ca825d-50ef-4026-a2d1-8608c31a0cd5",
+    "category": [
+      {
+        "productId": "a7ca825d-50ef-4026-a2d1-8608c31a0cd5",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "a7ca825d-50ef-4026-a2d1-8608c31a0cd5",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "a7cfb372-636b-44aa-a8ba-68d8e864694f",
+    "category": [
+      {
+        "productId": "a7cfb372-636b-44aa-a8ba-68d8e864694f",
+        "categoryId": "15ef2610-0105-4d22-a2c1-b705de5f6458"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "a7cfb372-636b-44aa-a8ba-68d8e864694f",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "a9cee6db-610e-499a-a52d-b4529fdf2877",
+    "category": [
+      {
+        "productId": "a9cee6db-610e-499a-a52d-b4529fdf2877",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "a9cee6db-610e-499a-a52d-b4529fdf2877",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "b99e61ed-14cc-447a-8076-0c0e0f21d0bb",
+    "category": [
+      {
+        "productId": "b99e61ed-14cc-447a-8076-0c0e0f21d0bb",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "b99e61ed-14cc-447a-8076-0c0e0f21d0bb",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "bdce8194-58dc-414c-80db-2afbe7da5bfc",
+    "category": [
+      {
+        "productId": "bdce8194-58dc-414c-80db-2afbe7da5bfc",
+        "categoryId": "15ef2610-0105-4d22-a2c1-b705de5f6458"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "bdce8194-58dc-414c-80db-2afbe7da5bfc",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "c0dc2a7f-1087-4fa0-a177-b569780c9d6e",
+    "category": [
+      {
+        "productId": "c0dc2a7f-1087-4fa0-a177-b569780c9d6e",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "c0dc2a7f-1087-4fa0-a177-b569780c9d6e",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "c2522d51-7d1f-4126-8073-839a392f540c",
+    "category": [
+      {
+        "productId": "c2522d51-7d1f-4126-8073-839a392f540c",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "c2522d51-7d1f-4126-8073-839a392f540c",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "c51f27b5-ab2e-4701-ab99-94f6604c26d8",
+    "category": [
+      {
+        "productId": "c51f27b5-ab2e-4701-ab99-94f6604c26d8",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "c51f27b5-ab2e-4701-ab99-94f6604c26d8",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "c848c8c8-1196-41b1-b073-4e6b7a2c20c6",
+    "category": [
+      {
+        "productId": "c848c8c8-1196-41b1-b073-4e6b7a2c20c6",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "c848c8c8-1196-41b1-b073-4e6b7a2c20c6",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "cb8ccb0e-6545-430d-a40a-6e8dbc54e059",
+    "category": [
+      {
+        "productId": "cb8ccb0e-6545-430d-a40a-6e8dbc54e059",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "cb8ccb0e-6545-430d-a40a-6e8dbc54e059",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "ccd402ae-941e-4ffa-82f3-068f3c72497f",
+    "category": [
+      {
+        "productId": "ccd402ae-941e-4ffa-82f3-068f3c72497f",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "ccd402ae-941e-4ffa-82f3-068f3c72497f",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "d280dc51-37ea-4e32-aaca-0a56e0054cbf",
+    "category": [
+      {
+        "productId": "d280dc51-37ea-4e32-aaca-0a56e0054cbf",
+        "categoryId": "40490143-6bff-4a13-bade-cfd679ce5f9c"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "d280dc51-37ea-4e32-aaca-0a56e0054cbf",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "d52e67c5-ec25-4904-bffe-77f1ec7fa86c",
+    "category": [
+      {
+        "productId": "d52e67c5-ec25-4904-bffe-77f1ec7fa86c",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "d52e67c5-ec25-4904-bffe-77f1ec7fa86c",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "d5b8a3e0-bdf6-4caf-9ee5-07acb51a5104",
+    "category": [
+      {
+        "productId": "d5b8a3e0-bdf6-4caf-9ee5-07acb51a5104",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "d5b8a3e0-bdf6-4caf-9ee5-07acb51a5104",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "d5d466bb-a619-40c7-bb13-0e42e4f2fed8",
+    "category": [
+      {
+        "productId": "d5d466bb-a619-40c7-bb13-0e42e4f2fed8",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "d5d466bb-a619-40c7-bb13-0e42e4f2fed8",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "d76599cf-3b88-47ad-bcdd-9da0c537a0b4",
+    "category": [
+      {
+        "productId": "d76599cf-3b88-47ad-bcdd-9da0c537a0b4",
+        "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "d76599cf-3b88-47ad-bcdd-9da0c537a0b4",
+        "subcategoryId": "43fb901e-adcd-43ac-80b7-bebf99b172ef"
+      }
+    ]
+  },
+  {
+    "id": "e11fbe27-189a-4696-a26a-11121f7c7877",
+    "category": [
+      {
+        "productId": "e11fbe27-189a-4696-a26a-11121f7c7877",
+        "categoryId": "59ac3845-a277-4263-945a-d56459b9537a"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "e11fbe27-189a-4696-a26a-11121f7c7877",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "e21c84bc-5e4d-4d1c-979d-9911f12171a7",
+    "category": [
+      {
+        "productId": "e21c84bc-5e4d-4d1c-979d-9911f12171a7",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "e21c84bc-5e4d-4d1c-979d-9911f12171a7",
+        "subcategoryId": "561371cc-7ad6-4c3a-b7aa-b47327e0c184"
+      }
+    ]
+  },
+  {
+    "id": "e60fdb5f-f280-48c7-80fb-8c26b4932197",
+    "category": [
+      {
+        "productId": "e60fdb5f-f280-48c7-80fb-8c26b4932197",
+        "categoryId": "15ef2610-0105-4d22-a2c1-b705de5f6458"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "e60fdb5f-f280-48c7-80fb-8c26b4932197",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "e7f8475d-5a50-4a9a-8afe-25813358c35b",
+    "category": [
+      {
+        "productId": "e7f8475d-5a50-4a9a-8afe-25813358c35b",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "e7f8475d-5a50-4a9a-8afe-25813358c35b",
+        "subcategoryId": "045eb12d-6356-4f56-8f62-dbca4d8a47c7"
+      }
+    ]
+  },
+  {
+    "id": "e84c06bb-8bb1-4a07-96b7-3181f3a47caa",
+    "category": [
+      {
+        "productId": "e84c06bb-8bb1-4a07-96b7-3181f3a47caa",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "e84c06bb-8bb1-4a07-96b7-3181f3a47caa",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "ec64c168-4b07-406d-aa57-e014c7ed25e2",
+    "category": [
+      {
+        "productId": "ec64c168-4b07-406d-aa57-e014c7ed25e2",
+        "categoryId": "af116ce3-c894-4768-9fee-96f10232b661"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "ec64c168-4b07-406d-aa57-e014c7ed25e2",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "f5d9accd-114b-4f26-8654-ac679e83d712",
+    "category": [
+      {
+        "productId": "f5d9accd-114b-4f26-8654-ac679e83d712",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "f5d9accd-114b-4f26-8654-ac679e83d712",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "fb1c275f-b00e-4cd5-a8ba-5bd2caa99728",
+    "category": [
+      {
+        "productId": "fb1c275f-b00e-4cd5-a8ba-5bd2caa99728",
+        "categoryId": "40490143-6bff-4a13-bade-cfd679ce5f9c"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "fb1c275f-b00e-4cd5-a8ba-5bd2caa99728",
+        "subcategoryId": null
+      }
+    ]
+  },
+  {
+    "id": "feee58aa-9b17-482f-a049-be6a01eff722",
+    "category": [
+      {
+        "productId": "feee58aa-9b17-482f-a049-be6a01eff722",
+        "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e"
+      }
+    ],
+    "subcategory": [
+      {
+        "productId": "feee58aa-9b17-482f-a049-be6a01eff722",
+        "subcategoryId": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+.categoryWrapper {
+  padding: 20px;
+  @media (max-width: 576px) {
+    padding: 20px 10px;
+  }
+}
+
+.categoryPage {
+  display: grid;
+  gap: 10px;
+
+  grid-template-columns: repeat(6, 1fr);
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (max-width: 991px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 576px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+.categoryTitle {
+  color: #323334;
+  font-weight: 700;
+  padding-bottom: 10px;
+
+  font-size: 30px;
+  @media (max-width: 576px) {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+}

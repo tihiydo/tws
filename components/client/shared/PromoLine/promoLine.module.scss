@@ -1,0 +1,62 @@
+
+.promoLine {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background: #ff2727;
+    color: $white;
+    padding: 3px 20px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px -3px;
+    text-decoration: none;
+    color: #fff;
+    @media (max-width: 768px) {
+        padding: 3px 10px;
+    
+    }
+    @media (max-width: 440px) {
+        font-size: 12px;
+    }
+    @media (max-width: 390px) {
+        font-size: 10px;
+    }
+    .box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+        .iconsLeft, .iconsRight {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 10px;
+            @media (max-width: 420px) {
+                gap: 5px;
+            }
+            img {
+                @media (max-width: 390px) {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+        .iconsRight {
+            img {
+                -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+
+            }
+        }
+        @media (max-width: 768px) {
+            gap: 10px;
+        }
+        @media (max-width: 420px) {
+            gap: 7px;
+        }
+    }
+    img {
+        filter: invert(100%);
+        width: 20px;
+    }
+}

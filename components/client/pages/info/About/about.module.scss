@@ -1,0 +1,107 @@
+.pageBox {
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    .upper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 80px 0px;
+        gap: 50px;
+        @media (max-width: 991px) {
+            margin: 20px 0px;
+            grid-template-columns: 1fr;
+            margin-bottom: 40px;
+        }
+        .image {
+            position: relative;
+            width: 100%;
+            max-height: 500px;
+            height: 500px;
+            //height: 100%;
+            //min-height: 500px;
+            img {
+                object-fit: cover;
+                margin: 0px auto;
+                max-width: 400px;
+                border-radius: 10px;
+            }
+        }
+        .text {
+            .title {
+                margin-bottom: 40px;
+                font-weight: 600;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                border-bottom: 3px solid #d3d3d3;
+            }
+            .main {
+                margin-bottom: 40px;
+                span {
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                font-size: 18px;
+                font-weight: 300;        
+            }
+            .socialIcons {
+                margin: 0px auto;
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                img {
+                    width: 30px;
+                    cursor: pointer;
+                    transition: 0.3s;
+                    &:hover {
+                        opacity: 0.7;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+    .benefits {
+        .item {
+            display: grid;
+            grid-template-columns: 0.5fr 1.5fr;
+            gap: 20px;
+            align-items: center;
+            padding: 40px 0px;
+            border-top: 1px solid #dfdfdf;
+            @media (max-width: 450px) {
+                grid-template-columns: 1fr;
+            }
+            img {
+                margin: 0px auto;
+                max-width: 100px;
+            }
+            .text {
+                .title {
+                    font-size: 25px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    color: #323334;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 500;
+                }
+                .main {
+                    font-weight: 300;  
+                    text-align: left;
+                    font-size: 18px;
+                }
+            }
+            @media (max-width: 991px) {
+                .text {
+                    .title {
+                        font-size: 18px;
+                    }
+                    .main {
+                        font-weight: 400;
+                        text-align: left;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

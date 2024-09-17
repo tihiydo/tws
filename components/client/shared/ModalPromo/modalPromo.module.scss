@@ -1,0 +1,134 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    height: 85%;
+    max-width: 800px;
+    width: 90%;
+    overflow: hidden;
+    @media (max-width: 768px) {
+        width: 90%;
+        height: 55%;
+    }
+    @media (max-width: 600px) {
+        width: 95%;
+        height: 52%;
+        .test {
+            * {
+                font-size: 14px;
+            }
+        }
+    }
+    @media (max-width: 450px) {
+        width: 95%;
+        height: 45%;
+    }
+    @media (max-width: 380px) {
+        width: 95%;
+        height: 45%;
+        .promoText {
+            margin-bottom: 10px!important;
+        }
+        .modaBtn {
+            width: 100%!important;
+            padding-top: 0px;
+            border-top: 0px!important;
+        }
+    }
+    .sideImage {
+        position: relative;
+        padding-bottom: 56.25%;      
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    .sideText {
+        position: relative;
+        .modalTitle {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 600;
+            padding: 20px;
+            svg {
+                cursor: pointer;
+            }
+            @media (max-width: 991px) {
+                font-size: 18px;
+            }
+            @media (max-width: 450px) {
+                font-size: 16px;
+            }
+        }
+        .modalBody {
+            .test {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            padding: 20px;
+            border-top: 1px solid #d3d3d3;
+            @media (max-width: 450px) {
+                input {
+                    padding: 7px 10px;
+                }
+                .test {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+            .promoText {
+                margin-bottom: 20px;
+                @media (max-width: 991px) {
+                    font-size: 14px;
+                }
+                @media (max-width: 450px) {
+                    font-size: 12px;
+                }
+            }
+        }
+        .modaBtn {
+            width: 100%;
+            border-top: 1px solid #d3d3d3;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+            @media (max-width: 991px) {
+                button {
+                    font-size: 14px;
+                }
+            }
+            @media (max-width: 450px) {
+                button {
+                    font-size: 14px;
+                    padding: 8px 12px;
+                }
+            }
+        }
+        @media (max-width: 991px) {
+            .modalTitle, .modalBody, .modaBtn {
+                padding: 10px;
+            }
+        }
+        @media (max-width: 380px) {
+            .modaBtn {
+                padding: 0px 10px 10px 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.pageInfo {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #fff;
+    user-select: text;
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+}

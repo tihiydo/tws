@@ -1,0 +1,23 @@
+
+.section {
+    &__title {
+        margin-bottom: -15px;
+        font-size: 35px;
+        line-height: 1;
+        @media (max-width: 768px){
+            font-size: 28px;
+            margin-bottom: -20px;
+        }
+    }
+
+    &__image {
+        position: relative;
+        width: auto;
+        height: clamp(250px, 35vw, 700px);
+        img { object-fit: cover }
+    }
+
+    &__text {
+        width: auto;
+    }
+}

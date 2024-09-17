@@ -1,0 +1,19 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+    .text { 
+        text-align: center;
+        .title {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .descr {
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+.box {
+  margin-top: 20px;
+  width: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  .lang_active {
+    text-decoration: none;
+    color: #e0a35a;
+    cursor: pointer;
+    font-weight:500;
+  }
+  .lang {
+    text-decoration: none;
+    color: #5F5E67;
+    cursor: pointer;
+  }
+  .separator {
+    width: 2px;
+    height: 20px;
+    background-color: #5F5E67;
+  }
+}

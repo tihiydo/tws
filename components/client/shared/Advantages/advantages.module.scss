@@ -1,0 +1,79 @@
+.box {
+    .upper {
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: #f4f4f4;
+        @media (max-width: 1240px) {
+            grid-template-columns: 1fr 1fr;
+            .item {
+                margin-bottom: 20px;
+                .descr {
+                    display: none;
+                }
+            }
+        }
+        .icon {
+            max-width: 50px;
+            svg {
+                max-width: 50px;
+                transform: scale(2.5);
+            }
+        }
+        .item {
+            display: grid;
+            grid-template-columns: 0.5fr 1.5fr;
+            gap: 10px;
+            .text {
+                max-width: 80%;
+                .title {
+                    // height: 40px;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    font-weight: 500;
+                    text-transform: uppercase;   
+                    @media (max-width: 768px) {
+                        font-size: 14px;
+                     }
+                     @media (max-width: 768px) {
+                        font-size: 12px;
+                     }
+                }
+                .descr {
+                    font-size: 14px;
+                }
+
+            }
+            @media (max-width: 1240px) {
+               .text {
+                    max-width: 100%;
+                    margin-bottom: 0px;
+                    .title {
+                        height: fit-content;
+                    }
+               }
+            }
+        }
+    }
+    // .lower {
+    //     display: grid;
+    //     grid-template-columns: 0.7fr 1.3fr;
+    //     padding: 20px 0px;
+    //     background-color: #cdcdcd;
+    //     .left {
+    //         display: grid;
+    //         grid-template-columns: 1fr 1fr;
+    //         .item {
+    //             div {
+    //                 font-size: 44px;
+    //                 font-weight: 700;
+    //             }
+    //             span {
+    //                 width: 100%;
+    //                 font-size: 18px;
+    //                 font-weight: 400;
+    //             }
+    //         }
+    //     }
+    // }
+}

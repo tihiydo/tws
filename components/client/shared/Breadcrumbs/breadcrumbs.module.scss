@@ -1,0 +1,40 @@
+.breadcrumbs-container {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.875rem; /* text-sm */
+
+  @media (min-width: 768px) {
+    gap: 1rem; /* md:gap-3 */
+    font-size: 1rem; /* md:text-base */
+  }
+}
+
+.breadcrumb-link {
+  color: #585a5d; /* text-gray-400 */
+  position: relative;
+  text-decoration: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.125rem; /* Adjust this value as needed for the underline offset */
+    width: 0;
+    height: 0.125rem; /* Adjust this value for the underline thickness */
+    background-color: #585a5d; /* Same color as the link text */
+    transition: width 0.2s; /* Adjust the duration as needed */
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.breadcrumb-icon {
+  padding: 0;
+  color: #555; /* text-gray-500 */
+}

@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 50px;
+
+    &__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__col {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

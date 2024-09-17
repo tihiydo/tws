@@ -1,0 +1,21 @@
+.sidebarWr {
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    min-height: 100vh;
+
+    .name {
+        height: 70px;
+        background-color: rgb(30, 30, 30);
+        margin-bottom: 25px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nameTitle {
+            color: white;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+}

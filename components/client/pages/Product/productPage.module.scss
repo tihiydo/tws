@@ -1,0 +1,228 @@
+
+.productPage {
+  background: #ffffff;
+  padding: 20px;
+  .sides {
+    display: grid;
+    gap: 40px;
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 1fr;
+    @media (max-width: 768px) {
+      gap: 10px;
+      grid-template-columns: 1fr;
+    }
+    .infoSide {
+      .title {
+        padding-right: 30px;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        font-weight: 400;
+        border-bottom: 1px solid rgba(112, 112, 112, 0.58);
+        @include adaptive-value('font-size', 30, 20, 1);
+        user-select: all;
+      }
+      .palette {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        align-self: flex-start;
+        @media (max-width: 991px) {
+          gap: 10px;
+        }
+      }
+      .palette_item {
+        position: relative;
+      }
+      .palette_round {
+        cursor: pointer;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        box-shadow: 0 1px 20px rgb(141 141 141 / 35%);
+        @media (max-width: 991px) {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .activeDot {
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        //transform: translateX(-50%);
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background: #707070;
+      }
+      .info {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .stars {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        img {
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+.description {
+  overflow: hidden;
+  white-space: pre-line;
+  word-wrap: break-word;
+  font-size: 18px;
+  margin-bottom: 15px;
+  user-select: text;
+}
+.image {
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  img {
+    object-fit: cover;
+    margin: 0px auto;
+    border-radius: 12px;
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
+
+.comments {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  img {
+    height: 16px;
+  }
+  span {
+    font-size: 14px;
+  }
+}
+.lastViewed {
+  margin-top: 20px;
+  .lastViewedTitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}
+.price {
+  position: relative;
+  margin-top: 40px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  .old {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    font-size: 20px;
+    text-decoration: line-through;
+    opacity: 0.3;
+  }
+  .new {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}
+.optionsBlock {
+  margin: 20px 0;
+}
+.options_title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.optionButton {
+  cursor: pointer;
+  font-size: 18px;
+  border: 2px #323334 solid;
+  color: #323334;
+  border-radius: 10px;
+  padding: 0 10px;
+  background: #fff;
+  transition: 0.2s background linear;
+  &:hover {
+    background: #323334;
+    color: #fff;
+  }
+}
+.optionButton_active {
+  background: #323334;
+  color: #fff;
+}
+.reviews {
+  margin-bottom: 20px;
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 0px;
+  }
+  button {
+    margin-top: 30px;
+  }
+}
+
+// Modal
+// ======================
+.modalTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px;
+  svg {
+    cursor: pointer;
+  }
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+}
+.lastViewed {
+  margin-top: 20px;
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+}
+.modalBody {
+  padding: 15px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .errorText {
+      color: red;
+      font-size: 12px;
+  }
+}
+.modalBtn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}

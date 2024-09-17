@@ -1,0 +1,292 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Category {
+  id            String              @id @default(uuid())
+  slug          String              @unique
+  name          String
+  onMain        Boolean             @default(false)
+  iconSrc       String?
+  order         Int?
+  name_ru       String?
+  Posts         Post[]
+  Products      CategoryOnProduct[]
+  Subcategories Subcategory[]
+}
+
+model Subcategory {
+  id         String                 @id @default(uuid())
+  slug       String                 @unique
+  name       String
+  categoryId String
+  name_ru    String?
+  Posts      Post[]
+  Products   SubcategoryOnProduct[]
+  category   Category               @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+}
+
+model Product {
+  id             String                 @id @default(uuid())
+  slug           String                 @unique
+  name           String
+  price          Int
+  description    String
+  language       String
+  onMain         Boolean                @default(false)
+  onBestsellers  Boolean                @default(false)
+  withDiscount   Boolean                @default(false)
+  discountValue  Int?
+  orderId        String?
+  createdAt      DateTime               @default(now())
+  order          Int?
+  videos         Json?
+  hint           String?
+  description_ru String?
+  hint_ru        String?
+  name_ru        String?
+  Posts          PostsOnProducts[]
+  Criterions     Criterion[]
+  Discounts      Discount[]
+  OrderProducts  OrderProduct[]
+  category       CategoryOnProduct[]
+  subcategory    SubcategoryOnProduct[]
+  ProductImages  ProductImage[]
+  Review         Review[]
+  Sales          Sale[]
+  Colors         Color[]                @relation("ColorToProduct")
+}
+
+model CategoryOnProduct {
+  productId  String
+  categoryId String
+
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([categoryId, productId])
+}
+
+model SubcategoryOnProduct {
+  productId     String
+  subcategoryId String
+
+  product     Product     @relation(fields: [productId], references: [id], onDelete: Cascade)
+  subcategory Subcategory @relation(fields: [subcategoryId], references: [id], onDelete: Cascade)
+
+  @@id([productId, subcategoryId])
+}
+
+model Post {
+  id             String            @id @default(cuid())
+  title          String
+  title_ru       String?
+  slug           String            @unique
+  description    String?
+  description_ru String?
+  categoryId     String
+  subcategoryId  String?
+  author         String            @default("Twinsann")
+  image          Json
+  content        Json?
+  withDate       Boolean           @default(true)
+  Products       PostsOnProducts[]
+  Category       Category          @relation(fields: [categoryId], references: [id])
+  Subcategory    Subcategory?      @relation(fields: [subcategoryId], references: [id])
+  Review         PostReview[]
+  createdAt      DateTime          @default(now())
+}
+
+model PostReview {
+  id     String @id @default(cuid())
+  postId String
+  Post   Post   @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  name     String
+  phone    String
+  comment  String
+  rating   Int
+  status   ModerationStatus @default(ON_MODERATION)
+  createAt DateTime         @default(now())
+}
+
+model PostsOnProducts {
+  post      Post    @relation(fields: [postId], references: [id], onDelete: Cascade)
+  postId    String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId String
+
+  @@id([postId, productId])
+}
+
+model Criterion {
+  id             String          @id @default(uuid())
+  name           String
+  description    String?
+  productId      String
+  description_ru String?
+  name_ru        String?
+  product        Product         @relation(fields: [productId], references: [id], onDelete: Cascade)
+  CriterionItems CriterionItem[]
+}
+
+model CriterionItem {
+  id             String    @id @default(uuid())
+  name           String
+  price          Int
+  description    String?
+  criterionId    String
+  description_ru String?
+  name_ru        String?
+  criterion      Criterion @relation(fields: [criterionId], references: [id], onDelete: Cascade)
+}
+
+model Order {
+  id            String         @id @default(uuid())
+  price         Int
+  name          String
+  surname       String
+  phone         String
+  city          String?
+  address       String?
+  department    String?
+  approved      Boolean        @default(false)
+  shipping_type String
+  payment_type  String
+  createdAt     DateTime       @default(now())
+  promocodeId   String?
+  status        String
+  Promocode     Promocode?     @relation(fields: [promocodeId], references: [id], onDelete: Cascade)
+  OrderProducts OrderProduct[]
+}
+
+model OrderProduct {
+  id         String  @id @default(uuid())
+  productId  String
+  orderId    String
+  Criterions Json
+  count      Int
+  price      Int
+  color      String?
+  imageUrl   String?
+  order      Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product    Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model Color {
+  id            String         @id @default(uuid())
+  name          String
+  ProductImages ProductImage[]
+  Products      Product[]      @relation("ColorToProduct")
+}
+
+model Image {
+  id            String         @id @default(uuid())
+  url           String
+  name          String
+  ProductImages ProductImage[]
+}
+
+model ProductImage {
+  id        String  @id @default(uuid())
+  productId String
+  colorId   String
+  imageId   String
+  order     Int?
+  color     Color   @relation(fields: [colorId], references: [id], onDelete: Cascade)
+  image     Image   @relation(fields: [imageId], references: [id], onDelete: Cascade)
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model Review {
+  id        String   @id @default(uuid())
+  name      String
+  surname   String
+  text      String
+  approved  String
+  rating    Int
+  createAt  DateTime @default(now())
+  phone     String
+  idProduct String
+  images    Json?
+  Product   Product  @relation(fields: [idProduct], references: [id], onDelete: Cascade)
+}
+
+model Promocode {
+  id     String  @id @default(uuid())
+  name   String
+  value  String
+  type   String
+  Orders Order[]
+}
+
+model Discount {
+  id        String  @id @default(uuid())
+  idProduct String
+  Product   Product @relation(fields: [idProduct], references: [id])
+}
+
+model Lead {
+  id       String   @id @default(uuid())
+  name     String
+  phone    String
+  createAt DateTime @default(now())
+  status   String
+}
+
+model Offer {
+  id      String  @id @default(uuid())
+  text    String
+  text_ru String?
+}
+
+model Popup {
+  id      String  @id @default(uuid())
+  text    String
+  image   String
+  text_ru String?
+}
+
+model Sale {
+  id        String  @id @default(uuid())
+  idProduct String
+  buyedNum  Int
+  freeNum   Int
+  cloth     String
+  Products  Product @relation(fields: [idProduct], references: [id])
+}
+
+model Log {
+  id        String   @id @default(uuid())
+  text      String
+  createdAt DateTime @default(now())
+  json      Json?
+}
+
+model Seo {
+  id             String   @id @default(cuid())
+  url            String   @unique
+  title          String
+  title_ru       String
+  h              String
+  h_ru           String
+  description    String
+  description_ru String
+  text           String
+  text_ru        String
+  hideSeoText    Boolean  @default(false)
+  createdAt      DateTime @default(now())
+}
+
+enum ModerationStatus {
+  ON_MODERATION
+  APPROVED
+  DECLINED
+}

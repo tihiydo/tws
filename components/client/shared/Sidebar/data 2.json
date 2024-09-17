@@ -1,0 +1,157 @@
+{
+  "categories": [
+    {
+      "id": "c7f898d7-2491-47df-a858-b4b9318ae34e",
+      "slug": "stiltsi",
+      "name": "Стільці",
+      "onMain": true,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/32/3172/3172829.png",
+      "order": 1,
+      "name_ru": "Стулья",
+      "Subcategories": [
+        {
+          "id": "c5b78496-5d1c-41be-a911-87b52a7cbd22",
+          "slug": "obidni_stiltsi",
+          "name": "Обідні стільці",
+          "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e",
+          "name_ru": "Обеденные стулья"
+        },
+        {
+          "id": "9372f06d-768e-4eda-9ec5-1fd6f96ee9ff",
+          "slug": "barni_|_napivbarni_stiltsi",
+          "name": "Барні | Напівбарні стільці",
+          "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e",
+          "name_ru": "Барни | Полубарные стулья"
+        },
+        {
+          "id": "11ab9ed9-d5fa-49e7-a2ea-89b70bc59f83",
+          "slug": "krisla_|_napivkrisla",
+          "name": "Крісла | Напівкрісла",
+          "categoryId": "c7f898d7-2491-47df-a858-b4b9318ae34e",
+          "name_ru": "Кресла | Полукресла"
+        }
+      ]
+    },
+    {
+      "id": "af116ce3-c894-4768-9fee-96f10232b661",
+      "slug": "pufy",
+      "name": "Пуфи",
+      "onMain": true,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/32/184/184151.png",
+      "order": 2,
+      "name_ru": null,
+      "Subcategories": [
+        {
+          "id": "b2bb8c51-4db2-4c46-9998-b2ced1061cc1",
+          "slug": "malenki_pufyky",
+          "name": "Маленькі пуфи",
+          "categoryId": "af116ce3-c894-4768-9fee-96f10232b661",
+          "name_ru": null
+        },
+        {
+          "id": "561371cc-7ad6-4c3a-b7aa-b47327e0c184",
+          "slug": "pufy_zi_stolykom",
+          "name": "Пуфи зі столиком",
+          "categoryId": "af116ce3-c894-4768-9fee-96f10232b661",
+          "name_ru": null
+        },
+        {
+          "id": "a2e235cc-128f-43ae-a6dc-4b792334b90b",
+          "slug": "puf_6v1",
+          "name": "Пуф 6в1",
+          "categoryId": "af116ce3-c894-4768-9fee-96f10232b661",
+          "name_ru": null
+        },
+        {
+          "id": "045eb12d-6356-4f56-8f62-dbca4d8a47c7",
+          "slug": "pufy_5v1",
+          "name": "Пуфи 5в1",
+          "categoryId": "af116ce3-c894-4768-9fee-96f10232b661",
+          "name_ru": null
+        },
+        {
+          "id": "b2bb8c51-4488-4b46-4488-b2ced1061cc1",
+          "slug": "pufy_transformery",
+          "name": "Пуфи-трансформери",
+          "categoryId": "af116ce3-c894-4768-9fee-96f10232b661",
+          "name_ru": null
+        }
+      ]
+    },
+    {
+      "id": "15ef2610-0105-4d22-a2c1-b705de5f6458",
+      "slug": "stoly",
+      "name": "Столи",
+      "onMain": false,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/32/1663/1663834.png",
+      "order": 3,
+      "name_ru": null,
+      "Subcategories": []
+    },
+    {
+      "id": "59ac3845-a277-4263-945a-d56459b9537a",
+      "slug": "miaka_stinka",
+      "name": "Комплекти для дому",
+      "onMain": false,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/32/279/279948.png",
+      "order": 5,
+      "name_ru": null,
+      "Subcategories": []
+    },
+    {
+      "id": "40490143-6bff-4a13-bade-cfd679ce5f9c",
+      "slug": "dyvany",
+      "name": "Дивани",
+      "onMain": false,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/32/333/333493.png",
+      "order": 6,
+      "name_ru": null,
+      "Subcategories": []
+    },
+    {
+      "id": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9",
+      "slug": "banketky",
+      "name": "Банкетки",
+      "onMain": false,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/32/8715/8715526.png",
+      "order": 7,
+      "name_ru": null,
+      "Subcategories": [
+        {
+          "id": "5d56b37b-03ed-4178-96a8-6d9c79dc154b",
+          "slug": "banketky",
+          "name": "Банкетки",
+          "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9",
+          "name_ru": null
+        },
+        {
+          "id": "43fb901e-adcd-43ac-80b7-bebf99b172ef",
+          "slug": "polychky_dlia_vzuttia",
+          "name": "Полички для взуття",
+          "categoryId": "2a9e2b6e-67b1-4b79-a909-213d4ffe69e9",
+          "name_ru": null
+        }
+      ]
+    },
+    {
+      "id": "24bcc493-a5b3-428c-860a-dda48aec4830",
+      "slug": "podarunkovi-sertyfikaty",
+      "name": "Подарункові сертифікати",
+      "onMain": true,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/32/481/481368.png",
+      "order": 8,
+      "name_ru": "Подарочные сертификаты",
+      "Subcategories": []
+    },
+    {
+      "id": "8ffcba49-6654-45d3-a51c-6cffde4aa6df",
+      "slug": "krisla",
+      "name": "Крісла",
+      "onMain": false,
+      "iconSrc": "https://cdn-icons-png.flaticon.com/512/4803/4803517.png",
+      "order": 11,
+      "name_ru": null,
+      "Subcategories": []
+    }
+  ]
+}

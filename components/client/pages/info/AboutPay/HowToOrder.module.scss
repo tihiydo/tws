@@ -1,0 +1,85 @@
+.pageInfo {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #fff;
+    user-select: text;
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    .parts {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 50px;
+        @media (max-width: 1240px) {
+            flex-wrap: wrap;
+        }
+        .part {
+            .upper {
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 20px;
+                .num {
+                    font-size: 50px;
+                    color: #323334;
+                }
+                .partTitle {
+                    font-size: 18px;
+                    font-weight: 400;  
+                }
+            }
+            .lower {
+                max-width: 400px;
+                height: 150px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+.modalTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px;
+    svg {
+        cursor: pointer;
+    }
+    @media (max-width: 991px) {
+        font-size: 18px;
+    }
+  }
+
+
+
+
+// Modal
+// ======================
+
+
+.modalTitle {
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.modalBody {
+    padding: 15px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .errorText {
+        color: red;
+        font-size: 12px;
+    }
+}
+.modalBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}

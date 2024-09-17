@@ -1,0 +1,32 @@
+.itemBox{
+    
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(30, 30, 30);
+    padding: 20px 0px 20px 15px;
+    
+    margin-bottom: 10px;
+
+    border-radius: $border-radius;
+
+
+    transition: 300ms;
+    &:hover {
+        transition: 300ms;
+        background-color: rgb(17, 136, 240);
+
+        .title{
+            transition: 500ms;
+            transform: translateX(15px);
+        }
+    }
+    
+    cursor: pointer;
+    .title{
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+
+        transition: 300ms;
+    }
+}

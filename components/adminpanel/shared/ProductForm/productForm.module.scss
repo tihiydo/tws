@@ -1,0 +1,18 @@
+.content {
+    margin-top: 25px;
+
+
+    .gridBlock {
+        width: 100%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "nameInput nameInput nameInput nameInput nameInput"
+        "priceInput saleInput saleCheck onMainCheck recomendCheck"
+        "categorySelect categorySelect subCategorySelect subCategorySelect subCategorySelect";
+        margin-bottom: 10px;
+    }
+    
+
+}

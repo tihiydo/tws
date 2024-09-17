@@ -1,0 +1,32 @@
+.navigation {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    svg {
+        transform: scale(3);
+        cursor: pointer;
+    }
+}
+
+.image {
+    //display: flex;
+    //position: relative;
+    //margin-bottom: 30px;
+    //aspect-ratio: 1/1;
+    //width: 100%;
+    //min-height: 300px;
+    //img {
+    //    object-fit: cover;
+    //    //margin: 0 auto;
+    //    border-radius: 12px;
+    //}
+    //@media (max-width: 768px) {
+    //    justify-content: center;
+    //}
+
+}

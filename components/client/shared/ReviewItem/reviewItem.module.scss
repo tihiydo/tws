@@ -1,0 +1,42 @@
+.item {
+    user-select: text;
+    padding: 20px 0px;
+    border-bottom: 1px solid #d3d3d3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    align-items: center;
+    background-color: #fff;
+    @media (max-width: 991px) {
+        grid-template-columns: 0.5fr 1.5fr;
+    }
+    .name {
+        max-width: 80%;
+        margin: 0px auto;
+        text-align: center;    
+    }
+    .info {
+        .rate {
+            margin-bottom: 20px;
+        }
+        span {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .text {
+            margin-top: 10px;
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+        
+    } 
+    @media (max-width: 540px) {
+        grid-template-columns: 1fr;
+        .name {
+            margin-left: 0px; 
+        }
+    }
+
+}

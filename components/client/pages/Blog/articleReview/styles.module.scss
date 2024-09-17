@@ -1,0 +1,40 @@
+
+.modalTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px;
+    svg {
+        cursor: pointer;
+    }
+    @media (max-width: 991px) {
+        font-size: 18px;
+    }
+}
+.lastViewed {
+    margin-top: 20px;
+    .title {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+}
+.modalBody {
+    padding: 15px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .errorText {
+        color: red;
+        font-size: 12px;
+    }
+}
+.modalBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}

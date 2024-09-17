@@ -1,0 +1,42 @@
+
+.wrapper {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.toast {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    border-radius: 6px;
+    padding: 20px 35px 20px 25px;
+    overflow: hidden;
+
+    &__active{
+        animation: appearAndDisappear 5s cubic-bezier(0.68, -0.55, 0.25, 1.35) forwards;
+    }
+}
+
+@keyframes appearAndDisappear {
+    0% {
+        transform: translateX(calc(100% + 30px));
+    }
+    12% {
+        transform: translateX(0)
+    }
+    50% {
+        transform: translateX(0)
+    }
+    85% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(calc(100% + 30px));
+    }
+}

@@ -1,0 +1,49 @@
+.swiperContainer {
+  overflow: visible!important;
+  width: calc(100% - 2px);
+  gap: 20px;
+  margin-bottom: 20px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 10px;
+  }
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.swiperBannerSlide {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  @media screen and (max-width: 768px) {
+    height: 50vw;
+  }
+}
+
+.bannerContainer {
+  .imageWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    img {
+      object-fit: contain;
+      width: 100%;
+    }
+  } 
+}
+.cardContainer {
+  padding: 3px 1px;
+  height: unset;
+}
+
+// @media screen and (max-width: 768px) {
+//   .swiperContainer{
+//     width: 95.5vw;
+//   }
+// }
+// @media screen and (max-width: 540px) {
+//   .swiperContainer{
+//     width: 92.5vw;
+//   }
+// }

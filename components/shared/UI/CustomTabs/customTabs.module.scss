@@ -1,0 +1,38 @@
+.boxedTabRoot {
+  display: inline-flex;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  height: 50px;
+  min-height: 50px;
+}
+
+.boxedTabWrapper {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.boxedTab {
+  min-width: 0;
+  padding: 10px 20px;
+  color: #9e9e9e;
+  height: 50px;
+  min-height: 50px;
+  transition: color 0.3s ease;
+
+
+}
+
+.boxedTab.Mui-selected {
+  color: #007aff;
+  background-color: #ffffff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.boxedTabIndicator {
+  display: none;
+}
+
+.boxedTabScrollButton {
+  display: none;
+}

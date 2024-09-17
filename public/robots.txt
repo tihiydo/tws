@@ -1,0 +1,11 @@
+User-agent: *
+
+Allow: /*.jsx
+Allow: /*.js
+Allow: /*.css
+Disallow: /order
+Disallow: /thanks
+Disallow: /adminpanel
+
+Host: https://www.twinsann.com/
+Sitemap: https://www.twinsann.com/sitemap.xml

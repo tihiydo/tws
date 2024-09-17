@@ -1,0 +1,66 @@
+.colors {
+  display: flex;
+  margin-bottom: 20px;
+
+  .addColor {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(143, 143, 143);
+    border-radius: $border-radius;
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+
+    .plus {
+      font-size: 50px;
+      color: white;
+    }
+
+  }
+}
+.color{
+  position: relative;
+  width: 80px;
+  cursor: pointer;
+  height: 80px;
+  border-radius: $border-radius;
+  margin-right: 10px;
+  .close {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    top: 5px;
+    right: 5px;
+  }
+}
+.activeColor{
+  border: #323334 2px solid;
+}
+
+
+
+.photos {
+  display: flex;
+  margin-bottom: 50px;
+
+  .addPhoto {
+    width: 40px;
+    height: 100px;
+    background-color: rgb(143, 143, 143);
+    border-radius: $border-radius;
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+    .plus {
+      font-size: 50px;
+      color: white;
+    }
+
+  }
+}

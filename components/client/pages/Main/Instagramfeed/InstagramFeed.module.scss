@@ -1,0 +1,26 @@
+.instBox {
+  max-width: 900px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  span {
+    user-select: text;
+      padding: 20px 0px;
+      font-size: 24px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+  }
+  .container {
+    width: 100%;
+    max-width: columns(12, 60px, 20px);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  } 
+}
+
